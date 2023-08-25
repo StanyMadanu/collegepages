@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/* Navigation Bar Section */
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+
+#navigation-ul a{
+    color: gray;
+}
+
+#navigation-ul a:hover{
+    color:#f68121;
+}
+
+/* Header Image */
+#head-image{
+    width:100%;
+    margin-bottom:50px;
+}
+
+#head-image img{
+    width:100%;
+}
+
+
+/* carousel slides */
+#slides-heading{
+    width:100%;
+    height:60px;
+    text-align:center;
+    text-transform:uppercase;
+
+}
+
+#myslides{
+    width:90%;
+    margin:20px auto;
+}
+
+/* rankings slides */
+#ranking-main-wrap{
+    width:90%;
+    margin:50px auto;
+}
+
+#ranking-box-div{
+    width:30%;
+    height:500px;
+    background-color:white;
+    box-shadow: 3px 6px 15px gray;
+    box-shadow: -3px -3px 15px gray;
+}
+
+#ranking-box-div img{
+    width:100%;
+}
+
+#ranking-box-div p{
+    padding:20px 20px 60px 20px;
+    font-weight: 500;
+    font-size:17px;
+}
+
+#readmore-div{
+    border-top:1px solid lightgray;
+    padding:10px;
+}
+#readmore-div button{
+    color:#f68121;
+    text-transform:uppercase;  
+    font-weight:bold; 
+}
+
+
+/* testimonials */
+#testimon-div{
+    width:90%;
+    margin:auto;
+}
+
+#indicators-div{
+    text-align:center;
+    
+}
+
+/* lpu map */
+#maptxt-div{
+    padding-top:80px;
+    text-align:center;
+}
+#maplpu-div{
+    height:400px; 
+    background-image:url(lpumap.jpg);
+    margin:30px 0px;
+}
+
+
+/* footer links */
+#footer-links-wrap{
+    max-width:120%;
+    background-color:#333333;
+    color:lightgray;
+}
+
+#footer-links-wrap li{
+    list-style-type:none;
+}
+
+#footer-links-wrap a{
+    text-decoration:none;
+    color:lightgrey;
+    display:block;
+    padding:10px;
+}
+
+#footer-links-wrap h6{
+    padding:100px 0px 2px 45px;
+}
+
+#footer-contacts{
+    padding-top:100px;
+}
+
+
+/* copyright footer */
+#copyright-foot{
+    width:100%;
+    height:150px;
+
+    background-color:#292929;
+    color:#52575b;
+}
+
+.cpy-box{
+    padding:30px;
+}
+
+#copyright-foot a{
+    text-decoration:none;
+    color:#52575b;
+}
+
+
+/* completed */

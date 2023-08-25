@@ -1,0 +1,238 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/* Header Logo */
+#logo-img{
+    width:100%;
+    min-height:100px;
+    text-align:center;
+}
+
+/* Navigation Section */
+#navigation-bar{
+    background-color:#073c7a;
+    padding-left:12%;
+}
+
+#navigation-bar a{
+    color:white;
+}
+
+#navigation-bar a:hover{
+    background-color:#ff6600;
+}
+
+#dropbar-bg{
+    background-color:#073c7a;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+
+/* Header Image Section */
+#myslider{
+    margin:20px 0px;
+}
+
+/* About DNRCET */
+#about-main-div{
+    width:100%;
+    background-color:#e9e7e7;
+}
+
+#about-head-div{
+    background-color:#ff6600;
+}
+
+#about-head-div, #nf-sub-div{
+    width:100%;
+    min-height:50px;
+    text-align:center; 
+    text-transform:uppercase;
+    color:white;
+    
+}
+
+#about-head-div h3, #nf-sub-div h3{
+    font-size:17px;
+    line-height:50px;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+
+/* boxes */
+#about-box-wrapr{
+    width:80%;
+    min-height:70px;
+    margin:auto;
+}
+
+.about-boxes{
+    height:40px;
+    background-color:#575757;
+    color:white;
+    text-align:center;
+    border-radius:5px; 
+    margin-left:30px;
+    margin-bottom:10px;
+
+}
+
+.about-boxes a{
+    text-decoration:none;
+    color:#fff;
+}
+
+.about-boxes h4{
+    font-size:13px;
+}
+
+/* College Profile */
+#college-prof-div{
+    width:100%;
+    min-height:200px;
+    margin:auto;
+    margin-bottom:10px;
+    border:1px solid #ff6600;
+}
+
+#clg-h4{
+    width:100%;
+    min-height:50px;
+    background-color:#ff6600;
+    color:white;
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+#clg-h4 h4{
+    padding-left:5%;
+    text-transform:uppercase;
+    font-size:18px;
+    font-weight:bold;
+}
+
+#clg-para-div{
+    padding:14px;
+}
+
+
+/* academics */
+
+#academics{
+    margin-top:150px;
+} 
+
+#card-size{
+    text-align:center;
+    box-shadow: 0 0 10px gray;
+}
+
+#card-size i{
+    font-size:75px;
+    color:#ff6600;
+}
+
+#card-size p{
+    padding:10px;
+}
+
+#card-size .card-footer{
+    background-color:#ff6600;
+}
+
+#card-size .card-footer a{
+    text-decoration:none;
+    color:white;
+}
+
+
+/* news events & facbook page */
+#nf-sub-div{
+    background-color:#7a7a7a;
+    box-shadow:0 0 10px gray;
+}
+
+.news-h4{
+    background-color:#d1eefb;
+    color:#3d91d4;
+
+}
+
+.news-h4 h4{
+    font-size:22px;
+    padding:5px;
+}
+
+#nf-sub-div:hover{
+    background-color:#ff6600;
+}
+
+
+/* news events content */
+
+#news-parent-div{
+    border:1px solid gray;
+    margin:10px 0 5px 0;
+}
+
+.news-content a{
+    text-decoration:none;
+    color:#000;
+   
+}
+
+.news-btnn{
+    font-weight:bold;
+    padding:10px 25px;
+    border: 1px solid gray;
+    border-radius:50px;
+    background-color:#fff;
+    color:gray;
+}
+
+.news-btnn:hover{
+    background-color:black;
+    color:#fff;
+}
+
+
+/* quick links */
+#quicklink-nav{
+    background-color:#f0f0f0;
+    height:60px;
+    align-items:center;  
+    margin-bottom:15px;    
+}
+
+#quicklink-nav a{
+    color:#677b8c;
+    font-weight:bold;
+
+}
+
+#quicklink-nav a:hover{
+    color:darkred;
+}
+
+
+/* footer section */
+#footer-div{
+    height:100px;
+    background-color:#15305b;
+    color:#fff;
+}
+
+#footer-div a{
+    text-decoration:none;
+    color:lightgray;
+}
+
+/*................................ completed ..................................*/

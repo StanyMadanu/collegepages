@@ -1,0 +1,358 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/* Logo Section */
+#logo-div{
+    width:100%;
+    min-height:100px;
+
+    display:flex;
+    flex-direction:row;    
+}
+
+.logo1-div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding-left:100px; 
+}
+
+.logo2-div{
+    padding-right:100px; 
+}
+
+/* Navigation Section */
+
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+
+#navigation-bar{
+    background-color:#004782;
+}
+
+#navigation-bar a{
+    color:white;
+}
+
+#navigation-bar a:hover{
+    color:#04df44;
+}
+
+#dropdown-bg a{
+    color:black;
+}
+
+
+/* Header Images */
+#header-image-div{
+    width:90%;
+    min-height:200px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+/* #head-img1{
+    flex-basis:70%;
+} */
+#head-img1 img, #head-img2 img{
+    width:100%;
+    height:300px;
+}
+
+#head-img2{
+    flex-basis:33%;
+}
+
+/* Marquee Section */
+#updates-scroll{
+    width:90%;
+    min-height:50px;
+    margin:auto;
+}
+
+#updates-scroll a {
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    padding:5px;
+    font-size:13px;
+}
+
+#updates-scroll marquee{
+    margin-bottom:20px;
+    border:1px solid gray;
+}
+
+/* First Open Univerity of India */
+#open-uni-wrapper{
+    width:90%;
+    min-height:200px;
+    margin: 30px auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.open-div13, .open-div2{
+    /* flex-basis:25%; */
+    padding:10px 20px;
+    border:1px solid lightgray;
+    border-radius: 5%;
+}
+
+.open-div13 img{
+    width:100%;
+    height:300px;
+    border:1px solid black;
+    
+}
+/* 
+.open-div2{
+    flex-basis:48%;
+} */
+
+/* Multi-Boxes Section */
+#multi-box-wrapper{
+    width:90%;
+    min-height:200px;
+    margin:30px auto;
+
+    display:flex;
+    flex-direction:column;
+    /* background-color:lightgray; */
+}
+
+.multi-row-div{
+    width:100%;
+    min-height: 50px;
+
+    display:flex;
+    flex-direction:row;
+    /* background-color:green; */
+    margin-bottom:10px;
+    justify-content:space-between;
+}
+
+.multi-boxes{
+    display:flex;
+    flex-direction:row;
+/*     flex-basis: 24%; */
+    background-image: linear-gradient(to top, lightgray, white);
+    border:1px solid lightgray;
+    border-radius:50px;
+    justify-content:center;
+    align-items:center;
+
+    font-size:13px;
+    font-weight:bold;
+    padding:5px;
+}
+
+.multi-boxes:hover{
+    border:1px solid #04df44;
+}
+
+.multi-boxes a{
+    text-decoration:none;
+    color:#000;
+}
+
+
+/* organisation structure section */
+#org-sectn{
+    width:90%;
+    margin:auto;
+}
+
+.org-head{
+    text-align:center;
+    padding:20px;
+    color:#4242f7;
+}
+
+.org-box{
+    padding:10px;
+}
+
+.org-box i{
+    font-size:20px;
+    border-radius:50%;
+    padding:15px;
+    color:white;
+}
+
+.org-box a{
+    display:inline-block;
+    text-decoration:none;
+    color:gray;
+    padding-left:5px;
+}
+
+
+/* Announcement Section */
+#announce-div{
+    text-align: center;
+    margin:60px 0 20px 0;
+    color: #1f629a;
+}
+
+#crd-head{
+    background-color:#1f629a;
+    color:white;
+}
+
+#quick-card a{
+    text-decoration:none;
+}
+
+.lts-box{
+    padding:10px;  
+}
+
+.lts-box a, .lts-box p{
+    text-decoration:none;
+    display:inline-block;
+    padding:10px;
+    color:#504e65;
+}
+
+.lts-dates{
+    height:60px;
+    border:1px solid gray;
+    text-align:center;
+}
+
+.lts-dt{
+    padding-left:5px;
+}
+
+.lts-dt a:hover{
+    color:#4242f7;
+}
+
+
+/* Rankings */
+#ranks-div{
+    background-color:#f6f7f6;   
+    margin-top:20px;
+}
+
+#ranks-div h3{
+    color:#504e65;
+}
+
+
+/* web portals */
+.bg-image{
+    width:90%;
+    margin:auto;
+    background-image: url('https://braou.ac.in/assets/images/user/webportal-bg.jpg');
+}
+
+.bg-image h4{
+    text-align:center;
+}
+
+.bg-image a{
+    text-decoration:none;
+    color:#fff;
+}
+
+
+/* extension activities */
+#extens-headg{
+    width:100%;
+    text-align:center;
+
+}
+
+#ext-div-wrapper{
+    width:100%;
+    margin:30px 0 80px;
+}
+
+#extens-headg h4{
+    font-size:30px;
+    color:#194f7b;
+}
+
+#extension-div-wrap{
+    width:90%;
+    margin:auto;
+}
+
+
+/* university picture section */
+#uni-pic-wrapper{
+    width:100%;
+    background-color:#f0f0f0;
+    padding:5px 0;
+    line-height:150px;
+}
+
+#uni-sub-div{
+    width:90%;
+    margin:auto;
+}
+
+
+/* footer links */
+#foot-links-wrapper{
+    width:100%;
+    background-color:#003664;
+}
+
+#foot-sub-div{
+    width:90%;
+    margin:auto;
+}
+
+#foot-sub-div h6{
+    color:lightblue;
+    padding:50px 0 10px;
+}
+
+#foot-sub-div a{
+    display:block;
+    text-decoration:none;
+    color:#fff;
+    padding:5px 0;
+}
+
+#foot-sub-div ul{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+#foot-sub-div a:hover{
+    color:#04df44;
+}
+
+
+/* footer section */
+#copyright-foot{
+    width:100%;
+    background-color:#094272;
+    color:#fff;
+}
+#copyright-foot div{
+    width:90%;
+    margin:auto;
+}
+
+#copyright-foot p{
+    font-size:13px;
+    line-height:50px;
+}
+
+
+/*---------------------------------------------------- completed --------------------------------------------------------*/

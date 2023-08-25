@@ -1,0 +1,823 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+/*Top Menu Bar CSS*/
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+
+.top-menubar-div{ 
+    width:100%;
+    min-height:50px;
+    background-color: #981F2B;
+    text-align:center;
+    line-height:50px;
+
+}
+
+.top-menubar-div ul{
+    list-style-type: none;
+    
+}
+
+.top-menubar-div a{
+    text-decoration:none;
+    display:block;
+    float:left;
+    color:white;
+    padding-right:20px;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+
+/*Logo & Navigation Bar CSS*/
+#navigation-bar{
+    background-color:#fff;
+}
+#navigation-bar a{
+    color:gray;
+}
+
+#navigation-bar a:hover{
+    color:#e42428;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+
+/*sub heading*/
+.heading3-div{
+    width: 100%;
+    height: 50px;
+    /*background-color: gray;*/
+    text-transform: uppercase;
+    font-size:11px;
+    color:deepskyblue;
+    text-align:center;
+    line-height: 50px;
+}
+
+/*Find your programme section CSS*/
+
+.wrapper-div{
+    width: 100%;
+    height:350px;
+    margin-top:2%;
+    /*background-color:gray;*/
+}
+
+.h1-div{
+    width: 100%;
+    height: 120px;
+    /*background-color:brown;*/
+    text-align:center;
+    line-height: 120px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+/*Location Section CSS*/
+.location-div{
+    width:100%;
+    height:60px;
+   /*background-color:bisque;*/ 
+    font-size:large;
+    text-align:center;
+    line-height:60px;
+    padding-right: 20px;
+}
+
+input.checkbox-size{
+    width:20px;
+    height:20px;
+}
+
+/*Selection Section CSS*/
+.selection-div{
+    width: 100%;
+    height:50px;
+   /*background-color:azure;*/ 
+    text-align:center;
+    line-height:50px;
+}
+
+/*Search Button CSS*/
+.btun-div{
+    width:100%;
+    height:100px;
+   /*background-color:blue;*/ 
+    text-align:center;
+    line-height:100px;
+    margin-top:2%;
+}
+
+.btun-div button{
+    font-size:20px;
+    color:white;
+    background-color:#e42428;
+    border:none;
+    font-weight: bold;
+    width:16%;
+    border-radius: 5px;
+}
+
+/*Disciplines*/
+
+.disciplines-div{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    min-height:100px;
+ /*   background-color: gray; */
+    margin: auto;
+}
+
+#disc-text{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    min-height:50px;
+   /* background-color:yellow; */
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+
+#boxes-div{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    min-height:200px;
+   /* background-color:orange; */
+    justify-content:space-between;
+    margin-bottom: 80px;
+}
+.box-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis:22%;
+    
+}
+
+.box-div img{
+    width:100%;
+}
+
+.box-div img:hover{
+    transform: translate(0px, -30px);
+    background-color: red;
+}
+
+/*Description Section CSS*/
+#descrip-wrap-div{
+    display: flex;
+    flex-direction:column;
+    width:80%;
+    min-height:100px;
+    margin:auto;
+}
+
+#head-h1-div{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height:50px;
+    justify-content:center;
+    align-items:center;
+}
+
+#wrap-content-div{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height:650px;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+#leftcontent-div{
+    display:flex;
+    flex-direction: column;
+    flex-basis:45%;
+    justify-content:center;
+}
+
+#leftcontent-div p{
+    padding:50px 0px
+}
+
+/*Button Section*/
+#leftcontent-div button, .content-div button{
+    border:none;
+    background-color: #e42428;
+    width:150px;
+    height:60px;
+    color:white;
+    padding:5px;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:3%;
+}
+
+#leftcontent-div button:hover, .content-div button:hover{
+    background-color: #981F2B;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+#rightcontent-div{
+    display:flex;
+    flex-direction: column;
+    flex-basis:50%;
+    background-image: url("https://www.gitam.edu/sites/default/files/2022-11/Visakhapatnam-Campus-GITAM.jpg");
+}
+
+/*Programmes at GITAM Section*/
+#container-pagedetail-div{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    min-height:500px;
+  /*  background-color:orange;*/
+    margin:100px auto;
+}
+
+#container-pagedetail-div a{
+    text-decoration:none;
+}
+
+.col-box a:hover{
+    background-color: #e42428;
+    color:#fff;
+}
+
+.col-box{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height: 80px;
+   /* background-color:gray;*/
+   border-bottom: 1px solid lightgray;
+}
+
+#container-pagedetail-div h2{
+    font-weight:900;
+    font-size:30px;
+    border-bottom:1px solid lightgray;
+    padding-bottom:20px;
+}
+
+.graduate-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis:50%;
+   /* background-color:aqua;*/
+    font-weight:700;
+    font-size:30px;
+    
+    align-items:center;
+    padding:50px 10px;
+   
+}
+
+.learn-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis:50%;
+   /* background-color:blue; */
+    font-weight:900;
+    font-size:large;
+    justify-content:end;
+    align-items:center;
+    padding:50px 10px;
+}
+
+/*Career Guidance*/
+#wrap-page-content{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    min-height:500px;
+    /*background-color:yellow;*/
+    justify-content:space-between;
+}
+
+.col1-div{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    /*background-color:orange;*/
+}
+
+.col2-div{
+    display: flex;
+    flex-direction:column;
+    flex-basis: 25%;
+   /* background-color:blue;*/
+}
+.col2-div img{
+    width:100%;
+    height:450px;
+}
+
+.subtitle-div{
+    display: flex;
+    flex-direction:column;
+    padding-left:35%;
+}
+
+.subtitle-div span{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight:800;
+    color: #4ac6e9;
+
+}
+
+
+.subtitle-div h2{
+    padding: 30px 0 100px 0;
+    font-weight:900;
+    font-size:30px;
+}
+
+.img-content-div{
+    display: flex;
+    flex-direction:row;
+    flex-basis:70%;
+    justify-content:space-between;
+}
+
+.leftside-img-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis:40%;
+}
+
+.leftside-img-div img{
+    width:100%;
+    height:350px;
+}
+
+.rightside-info-div{
+    display: flex;
+    flex-direction: column;
+    flex-basis:50%;
+   /* background-color:green;*/
+}
+
+.rightside-info-div p, .rightside-info-div ul, .rightside-info-div button{
+    padding:20px 10px;
+}
+
+.content-div ul li{
+    list-style-type: none;
+    padding-bottom:10px;
+
+}
+
+.content-div a{
+    text-decoration:none;
+    color:black;
+}
+
+.content-div a:hover{
+    color:#e42428;
+}
+
+/*Gitam Info*/
+#gitam-info-div{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height:600px;
+    margin: 13% 0%;
+}
+
+.img-gitam{
+    padding-top:50px;
+    display:flex;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+.img-gitam img{
+    width:100%;
+    height:500px;
+}
+
+.gitam-info-dt{
+    display:flex;
+    flex-direction:column;
+    flex-basis:50%;
+    color:white; 
+    padding-top:50px; 
+    background-color: black;
+}
+
+.gitam-info-dt h2{
+    width:100%;
+    padding:2% 0% 7% 15%;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.gitam-info-dt h4{
+    padding:2% 15%;
+    font-size:20px;
+}
+
+/*Clg Members*/
+#count-wrapper{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height: 250px;
+    background-color:black;
+    color:white;
+    justify-content:center;
+    align-items:center;
+}
+
+.count-child-div{
+    display:flex;
+    flex-direction:column;
+    flex-basis:22%;
+    text-align: center;
+}
+
+.count-child-div h1{
+    font-size:90px;
+}
+
+.count-child-div p{
+    font-size:20px;
+}
+
+.headgtm-div{
+    width:100%;
+    height:150px;
+    line-height:150px;
+    padding-left:9%;
+    font-size:45px;
+    font-weight:800;
+}
+
+/*Founder of GITAM*/
+#murthi-wrapper-div{
+    width:100%;
+    min-height:100px;
+    background-color:black;
+    color:#bbb;
+}
+
+#murthi-wrapper-div img{
+    width:75%;
+    padding-bottom:50px;
+}
+
+#founder-content-div{
+    display:flex;
+    flex-direction:column;
+    width:65%;
+    min-height:100px;
+    margin-left:10%;
+}
+
+.founder-dt{
+    width:100%;
+    min-height:60px;
+    padding:20px 0px;
+    line-height:1.5;
+}
+
+#vision-mission-wrapper{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height: 200px;
+}
+.vs-mis{
+    width:50%;
+    min-height:200px;
+}
+
+.vs-mis p{
+    line-height:1.5;
+}
+
+.vs-mis h3{
+    color:white;
+    padding: 30px 0px 15px 0px;
+    font-size:25px;
+    font-weight:800;
+}
+
+/*single elements*/
+.ourpartners{
+    width:100%;
+    min-height:50px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight:800;
+    color: #4ac6e9;
+    text-align:center;
+    margin-top:150px;
+}
+
+.subhead-h2{
+    width:100%;
+    min-height:100px;
+    font-size:30px;
+    font-weight:800;
+    text-align:center;
+
+}
+
+
+/*Sponser & Partners*/
+#sponser-partner-wrapper{
+    width:80%;
+    min-height:100px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.row-partner{
+    width:100%;
+    min-height:100px;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.col-box2{
+    flex-basis:22%;
+    margin:30px;
+}
+
+.col-box2 img{
+    width:100%;
+    min-height:80px;
+    margin:20px;
+}
+
+
+.btn-class{
+    width:100%;
+    min-height:100px;
+    text-align:center;
+    padding: 100px 0px;
+}
+
+.btn-class button{
+    border:none;
+    width:250px;
+    height:60px;
+    color:white;
+    padding:5px;
+    font-weight:bold;
+    font-size:20px;
+    
+    border-radius:3%; 
+    background-color: #e42428;
+}
+
+/*Events Section*/
+.events-head{
+    width:80%;
+    margin:auto;
+    padding-bottom:40px;
+    font-weight:800;
+    font-size:30px;
+}
+
+#events-wrapper-div{
+    width:80%;
+    min-height:200px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+.events-col h6{
+    color:gray; 
+    padding:50px 0px 25px 50px;
+    font-size:13px;
+    font-weight:lighter;
+}
+
+.events-col{
+    flex-basis:48%;
+    border:1px solid lightgray;
+}
+
+.events-col h3{
+    padding:5px 90px 20px 50px;
+}
+
+.events-col b{
+    padding-left:50px;
+}
+
+.events-col p{
+    padding: 5px 0px 20px 50px;
+    font-size:13px;
+}
+
+.events-col button{
+    margin:0px 0px 50px 50px;
+    border:none;
+    color:#e42428;
+    font-size:20px;
+    font-weight:bold;
+    background-color:transparent;
+}
+
+.events-col:hover{
+    color:white;
+    background-color:black;
+}
+
+/*Follow Us*/
+.followus-head{
+    width:100%;
+    min-height:50px;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:29px;
+    font-weight:800;
+    padding: 60px 0 20px 0;
+}
+
+#followus-wrapper{
+    width:80%;
+    min-height:500px;
+   /* background-color:lightgray;*/
+    margin:20px auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#followus-wrapper p{
+    font-weight:bold;
+    font-size:18px;
+    padding:20px 0px;
+}
+
+#followus-wrapper a{
+    display:block;
+    padding-top:10px;
+    
+    text-decoration:none;
+    font-weight:bold;
+    font-size:16px;
+    color:#4ac6e9;
+}
+
+.follow-row-box{
+    flex-basis:23%;
+   /* background-color:aqua;*/
+}
+
+.follow-rowbox-down{
+    flex-basis:23%;
+  /*  background-color:aqua; */
+    margin-top:70px;    
+}
+
+.no-zoom-border{
+    display:inline-block;
+    overflow:hidden;
+    width:100%;
+ /*   background-color:red;*/
+}
+
+.no-zoom-border img{
+    width:100%;
+    display:block;
+    transition: transform .4s;
+    
+}
+
+/*hover effect*/
+.no-zoom-border img:hover{
+    transform:scale(1.2);
+}
+
+#followus-wrapper a:hover{
+    color:#e42428;
+}
+
+/*Footer Section CSS*/
+#footer-wrapper-div{
+    width:100%;
+    min-height:200px;
+    background-color:#131212;
+
+    display:flex;
+    flex-direction:column;
+}
+
+#footer-row1{
+    width:80%;
+    min-height:200px;
+    margin: 30px auto;
+    color:#ebe4e4;
+    padding:20px 0;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#footer-row2{
+    width:80%;
+    min-height:200px;
+    margin: 20px auto;
+    color:#ebe4e4;
+    padding-bottom:30px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+/*Footer 1st row*/
+#footer-row1 a{
+    text-decoration:none;
+    color:lightgray;
+    font-size:15px;
+    
+    display:block;
+    padding:5px 0;
+}
+
+#footer-row1 a:hover{
+    color:#e42428;
+}
+
+#footer-row1 li{
+    list-style-type:none;
+}
+
+#footer-row1 h3, #footer-row2 h3{
+    padding:10px 0;
+}
+
+/*Footer 2st row*/
+#footer-row2 a{
+    text-decoration:none;
+    color:#e42428;
+    font-weight:bold;
+    font-size:15px;
+
+    display:block;
+    padding:10px 0;
+}
+
+#footer-row2 p{
+    padding:2px 0 10px 0;
+    line-height:1.3;
+    font-size:15px;
+}
+
+#footer-divdr{
+    width:100%;
+    min-height:30px;
+    text-align:center;
+    color: #ebe4e4;
+}
+
+/*Copyright*/
+#copyright-div{
+    width:100%;
+    min-height:80px;
+    background-color:#000;
+    color:gray;
+    text-align:center;
+    line-height:80px;
+    font-size:14px;
+}
+
+/******************************************COMPLETED*******************************************************/

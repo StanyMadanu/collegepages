@@ -1,0 +1,320 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#logo-div{
+    width:100%;
+    min-height:150px;
+
+    display:flex;
+    flex-direction:row;
+}
+
+#logo1, #logo2{
+    flex-basis:50%;
+    flex-direction:row;
+    padding:10px;
+}
+
+/* Navigation Bar Section */
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+    
+}
+
+.dropdown:hover{
+    background-color: #f06200;
+}
+
+#navigation-bg{
+    background-color:#002442;
+}
+
+#navigation-bg a:not(.droptext-clr a){
+    color:#fff;
+}
+
+
+/* Scroll Content */
+#scroll-content{
+    width:100%;
+    height:30px;
+    background-color:#fbb03b;
+    line-height:30px;
+}
+
+/* Header Image Section */
+#head-image-div{
+    width:100%;
+}
+
+/* header content section */
+#head-content-wrap{
+    width:100%;
+    min-height:150px;
+    background-color:#002e62;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+.aside-img-div{
+    flex-basis:25%;
+}
+
+.aside-img-div img{
+    width:100%;
+    min-height:auto;
+}
+
+#mid-content-div{
+    flex-basis:45%;
+    padding:10px;
+    
+}
+
+#mid-content-div p{
+    color:#fff;
+}
+
+/* Welcome to siddhartha */
+#welcome-wrap{
+    width:90%;
+    min-height:200px;
+    margin:auto;
+    padding:10px;
+
+    display:flex;
+    flex-direction:row;
+
+}
+
+.welcome-row{
+    flex-basis:27%;
+    padding:10px;
+}
+
+.welcome-row img{
+    width:100%;
+}
+
+.welcome-row2{
+    flex-basis:45%;
+    padding:10px;
+}
+
+/* Circle Images Section */
+#circle-imgs-wrap{
+    width:90%;
+    min-height:150px;
+    margin: 80px auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.image-size{
+    width:160px;
+    height:163px;
+}
+
+
+/* courses offered */
+.course-head{
+    width:90%;
+    min-height:60px;
+    margin:auto;
+
+    text-transform:capitalize;
+    font-weight:lighter;
+    text-align:center;
+    border-bottom:1px solid lightgray;
+}
+
+#courses-offered-wrap{
+    width:90%;
+    min-height:200px;
+    margin:20px auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+
+.cours-box{
+    flex-basis:32%;
+    display:flex;
+    align-items: center;
+}
+
+.cours-box img{
+    width:100%;
+}
+
+.cours-box a{
+    display: block;
+    text-decoration:none;
+}
+
+.cours-box h4{
+    background-color:#f06200;
+    color:#fff;
+    height:40px;
+    font-size:20px;
+    text-align:center;
+    line-height: 40px;;
+ 
+}
+
+/* news & events */
+#news-events-wrap{
+    width:100%;
+    background-image:url(https://i.ibb.co/M6R7T6v/news-banner.jpg);
+}
+
+#news-events-txt{
+    color:#fff;
+    text-align:center;
+}
+
+#news-events-txt h2{
+    font-weight:bolder;
+    font-size:40px;
+    padding:30px 0px;
+    
+}
+
+#news-scroll-content{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#news-scroll-content marquee{
+    background-color:#e8f3fa;
+}
+
+#news-scroll-content a{
+    display:block;
+    margin:5px 10px;
+    padding-bottom:10px;
+    text-decoration:none;
+    color:#22425d;
+    border-bottom:3px solid #65aedb;
+}
+
+#news-scroll-content a:hover{
+    color:#65aedb;
+}
+
+#exams-heading{
+    background-color:#2b8fcd;
+    color:white;
+    padding:10px;
+    font-size:18px;
+}
+
+/* student testimonials */
+#std-test-main-div{
+    background-color: #EBF8F8;
+    width:100%;
+    height:380px;
+}
+
+#std-testslide-div{
+    width:100%;
+    padding:50px;
+    background-color: #EBF8F8;
+}
+
+#std-test-main-div h3{
+    color:#f06200;
+    text-align:center;
+    font-weight:bold;
+    font-size:40px;
+    padding-top:30px;
+}
+
+/* photo and video gallery */
+#ptovid-wrapper{
+    width:100%;
+    height:300px;
+    padding:50px 30px;
+}
+
+#img-box{
+    margin:40px 0px;
+}   
+
+#ptovid-wrapper a{
+    text-decoration:none;
+    color:black;
+}
+
+#ptovid-wrapper a:hover{
+    color:blue;
+}
+
+
+/* partner companies logo section */
+#complogo-wrap{
+    width:100%;
+    height:200px;
+    line-height:200px;
+    padding:10px;
+}
+
+
+/* footer links section */
+#foot-wrap-div{
+    width:100%;
+    height:550px;
+    background-color:#333333;
+    color:lightgray;
+}
+
+#foot-links a{
+    display:inline-block;
+    text-decoration:none;
+    color:lightgray;
+    padding-top:10px;
+}
+
+#foot-wrap-div li{
+    list-style-type:none;
+}
+
+#foot-contact{
+    padding:50px 30px;
+}
+
+#foot-links{
+    padding:50px 30px;
+}
+
+#foot-links h5{
+    color:#fff;
+    padding-left:30px;
+}
+
+#copyright-text{
+    border-top:1px solid lightgray;
+}
+#copyright-text p{
+    padding:30px;
+}
+
+
+/*................................................completed............................................... */
+

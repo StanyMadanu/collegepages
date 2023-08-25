@@ -1,0 +1,521 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+#header-div{
+    background-color: #31aae1;
+    text-transform: uppercase;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#header-div a{
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    padding: 8px;
+    font-size:smaller;
+}
+
+/*Logo Section*/
+
+#logo-div{
+    width: 100%;
+    min-height: 100px;
+}
+
+#university-logo-div{
+    width: 50%;
+    min-height: 100px;
+    float: left;
+    text-align:center;
+}
+
+#date-div, #ou-stamp-div{
+    width: 23%;
+    min-height: 100px;
+    float: left;
+    text-align:center;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+
+/*Navigation Section*/
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+
+#nav-dropdown-list a:hover{
+    background-color:#31aae1;
+    color:#fff;
+    
+}
+
+/*Universtity Image & Side bar*/
+
+.image-sidebar-div{
+    width: 100%;
+    min-height: 300px;
+}
+
+#slideimg-div{
+    width: 70%;
+    min-height: 300px;
+    float: left;
+
+}
+
+#sidebar-div{
+    width:30%;
+    min-height:300px;
+    background-color:#3399ff;
+    float:left
+
+}
+
+#sidebar-div a{
+    text-decoration: none;
+    text-transform:uppercase;
+    color:white;
+    display:block;
+    border-bottom: 1px solid white;
+    margin-left: 5%;
+    padding: 15px 0;
+    font-weight:bold;
+
+}
+
+#sidebar-div a:last-child{
+    border-bottom:none;
+}
+
+#sidebar-div a:hover, .usefull-links-div a:hover{
+    color: #002a5c;
+}
+
+/*content*/
+
+#container{
+    width: 100%;
+    min-height: 15  0px;
+    background-image: linear-gradient(to top, #3399ff, white);
+    padding:30px 0px;
+}
+
+.row{
+    width:90%;
+    min-height: 50px;
+}
+
+.col{
+    width:14%;
+    min-height: 55px; 
+    background-color:#06233d;
+    float: left;
+    margin: 6px 0px 6px 5px;
+}
+
+.col a{
+    width: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    font-size:x-small;
+    text-align:center;
+    line-height:55px;
+}
+
+.col img{
+    float: left;
+    padding:8px 8px 0px 10px;
+
+}
+
+/*Marquee CSS*/
+
+.marquee-section{
+    width: 90%;
+    min-height: 35px;
+    margin: auto;
+    background-color: #5b0b0b;
+}
+
+.marquee-section a, .marquee-section b{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    line-height: 35px;
+    font-size:small;
+}
+
+/*News, Events & Vice Chancellor Section CSS*/
+
+.main-div{
+    width: 90%;
+    min-height: 500px;
+    margin: 1% auto;
+}
+
+.news-div{
+    width: 30%;
+    min-height: 500px;
+    float:left;
+    border: 1px solid lightgray;
+    margin-right:10px;
+}
+
+.events-div{
+    width: 43%;
+    min-height: 500px;
+    float:left;
+    border: 1px solid lightgray;
+}
+
+
+/* Content of News, Events & Vice Chancellor Section CSS */
+.h3-heading{
+    color:#31aae1;
+    border-bottom: 1px solid black;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.news-div ul, .events-div ul{
+    list-style-type: none;
+}
+
+.news-div a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+/*Mouse Hover Effect */
+.news-div a:hover, .events-info-div a:hover, .item-title-div a:hover, .row1-col a:hover, .row2-col a:hover, .right-link-div a:hover{
+    color:#31aae1;
+}
+
+/*Events CSS*/
+
+.article-div{
+    width: 98%;
+    min-height: 140px;
+    padding:5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.events-date-div{
+    width: 30%;
+    min-height: 100px;
+    float:left;
+   
+}
+
+.events-info-div{
+    width: 60%;
+    min-height: 100px;
+    float:left;   
+}
+
+.events-info-div a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.span-date, .span-month{
+    display:inline-block;
+    width: 70%;
+    min-height: 30px;
+    background-color:#002664;
+    border: 1px solid black;
+    color:white;  
+    text-align:center;
+    line-height:30px;
+}
+
+.span-month{
+    background-color:#31aae1;
+}
+
+/*Vice Chancellors Section*/
+
+.vice-chancellors-div{
+    width: 25%;
+    min-height: 500px;
+    border: 1px solid lightgray;
+    float:left;
+    margin-left:10px;
+    background-color:#333;
+}
+
+.vice-head-div{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.vice-head-div h3{
+    color:white;
+    text-align:center;
+    line-height:50px;
+}
+
+.vice-img-div{
+    width:100%;
+    min-height: 100px;
+    text-align:center;
+
+}
+
+.vice-img-div img{
+    width:150px;
+    min-height:140px;
+    border-radius: 50%;
+
+}
+
+.vice-info-div{
+    width:100%;
+    min-height:140px;
+    margin-top:40px;
+}
+
+.vice-info-div h3{
+    text-transform:uppercase;
+    color: #e49606;
+    font-size: 14px;
+    text-align:center;
+    margin-bottom:5px;
+    font-weight: 4px;
+}
+
+.vice-info-div p{
+    color: white;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.vice-info-div a{
+    text-decoration:none;
+    display:block;
+    color:#31aae1;
+    font-weight: bold;
+    font-size: 13px;
+    text-align:center;
+}
+
+/*Campus Colleges CSS*/
+.section2-div{
+    width:90%;
+    min-height:350px;
+    margin: 1% auto;
+}
+
+.section2-div h3{
+    color: #31aae1;
+    margin: 25px 0px;
+}
+
+
+.campus-div{
+    width:75%;
+    min-height:350px;
+    float:left;
+}
+
+.AET-dev{
+    width:32%;
+    min-height:350px;
+    float:left;
+    margin-right:1%;
+}
+
+.AET-dev img{
+    width: 100%;
+    min-height:100px;
+    border:5px solid #31aae1;
+}
+
+.AET-dev img:hover{
+    transform:scale(1.1);
+}
+
+.item-title-div{
+    width: 100%;
+    min-height: 30px;
+}
+
+.item-title-div a{
+    display:block;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height:30px;
+    font-weight:bold;
+}
+
+.des-div{
+    width: 100%;
+    font-size: 13px;
+    color:gray;
+}
+
+/*Useful Links CSS*/
+
+.usefull-links-div{
+    width:25%;
+    min-height:350px;
+    background-color: #31aae1;
+    float:right;
+}
+
+.usefull-links-div a, .right-link-div a, .socialmedia-icons i{
+    text-decoration: none;
+    color: white;
+}
+
+.usefull-links-div ul li{
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+.usefull-links-div h3{
+    width: 100%;
+    min-height: 15px;
+    color: white;
+    text-align:center;
+}
+
+
+/*Bottom Other Links Section*/
+.links-wrapper-div{
+    width:100%;
+    height:600px;
+    background-color:#002664;
+    padding: 50px 0px;
+}
+
+.links-sub1-div{
+    width: 60%;
+    height: 550px;
+    float:left;
+    margin-left: 5%;
+}
+
+.row1-col, .row2-col{
+    width:22%;
+    height:250px;
+    float:left;
+    margin-right:3%;
+}
+
+/*h3 css*/
+.row1-col h3, .row2-col h3{
+    color:#eaab00;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.row1-col ul, .row2-col ul, .links-sub2-div ul{
+    list-style-type: none;
+}
+
+.row1-col a, .row2-col a{
+    display:block;
+    padding: 5px;
+    text-decoration:none;
+    color: white;
+    font-size:13px;
+}
+
+/*right side links css*/
+
+.links-sub2-div{
+    width:30%;
+    height:550px;
+    float:left;
+}
+
+.right-link-div{
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.right-link-div a{
+    width:100%;
+    display:block;
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:10px;
+    padding: 15px;
+
+}
+
+.socialmedia-icons li{
+    float: right;
+    padding-right:30px;
+}
+
+/*Footer Section*/
+
+footer{
+    width: 100%;
+    min-height: 90px;
+    background-color:#3399ff;
+    color: white;
+    text-align:center;
+
+
+}
+
+footer a, footer p{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+.copyright-content-div{
+    width: 100%;
+    min-height: 100px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .dropdown {
+    position:static !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top:0px !important;
+    width:100% !important;
+} */

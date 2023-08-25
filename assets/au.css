@@ -1,0 +1,719 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image:url(https://www.andhrauniversity.edu.in/img/header-bg.png);
+    
+}
+
+/*Top Bar Section CSS*/
+#topbar-div{
+    display:flex;
+    flex-direction:row;
+    background-color:#4d4d4d;
+    width:100%;
+    min-height:50px;
+    color:#fff;
+    justify-content:space-around;
+    font-size:13px;
+    
+}
+
+#left-topbar{
+    display:flex;
+    flex-direction: row;
+    line-height:50px;
+}
+
+#right-topbar{
+    display:flex;
+    flex-direction:row;
+    line-height:50px;
+    
+}
+
+#topbar-div span{
+    padding:0px 5px;
+}
+
+#topbar-div i{
+    padding:0px 5px;
+    line-height:50px;
+}
+
+#left-topbar img{
+    width:20px;
+    height:15px;
+    margin-top:17px;
+    margin-right:10px;
+}
+
+#right-topbar a{
+    text-decoration:none;
+    color:#fff; 
+}
+
+#right-topbar a:hover{
+    color: #f8b003;
+}
+
+/*Navigation*/
+
+#navigation-bar{
+    padding-left:20%;
+}
+
+#sub-head{
+    color: #ffca00;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 6px 0;
+    border-bottom: 1px solid #ffca00;
+    padding-bottom: 7px;
+}
+
+#main-ul a:hover:not() #navigation-bar-drop a{
+    background-color:#f95c39;
+}
+
+#navigation-bar a:hover{
+    color:#f95c39;
+}
+
+
+#navigation-bar, #navigation-bar-drop{
+    background-color: #213a76;
+}
+
+.nav li a{
+    color:white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+/*Andhra Universtiy Logo*/
+
+#logo-info-wrapper{
+    width:100%;
+    min-height:200px;
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:0% 10%;
+}
+
+.AU-logo{
+    flex-basis:60%;
+}
+
+.AU-logo img{
+    width: 70%;
+}
+
+.AU-info{
+    flex-basis:40%;
+    font-size: 15px;
+}
+
+.search-button{
+    background-color:#f95c39;
+}
+
+
+
+/*STUDENT CORNER & QUICK LINKS*/
+.quick-links, .std-content{
+    margin:20px;
+}
+
+.quick-links span a, .std-content span a{
+    text-transform:uppercase;
+    text-decoration-color: red;
+    color:red;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.stud-corner-list li a, .quick-links li a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#2a5dc8;
+    font-weight: 700;
+
+}
+
+
+/*Images & Student corner(Left Side Content)*/
+.leftside-img img{
+    width: 280px;
+    height:180px;
+}
+
+.std-content, .std-content li, .quick-links li{
+    width: 280px;
+    list-style: none;
+}
+
+.left-side-content, .right-side-content{
+    display:inline-block;
+    margin: 10px;
+}
+
+/*News And Events(Right Side Content)*/
+
+
+
+.news-events{
+    display: inline-block;
+    background-color: white;
+
+}
+
+.news-events span{
+     font-size: 17px;
+     color: red;
+     font-weight: bold;
+     padding: 30px;
+}
+.marquee-list{
+    width:280px;
+    height:320px;
+    padding: 5px;
+}
+
+.marquee-list li{
+    list-style: none;
+}
+
+.marquee-list ul li a{
+    text-decoration: none;
+    color:rgb(10, 182, 240);
+    
+}
+
+/*Alignment*/
+#wrapper-div{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height:800px;
+   /* background-color:orange;*/
+    justify-content:space-between;
+}
+
+.child1-div, .child3-div{
+    display:flex;
+    flex-direction:column;
+    flex-basis:25%;
+}
+
+.child2-div{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    margin-top:10px;
+    
+}
+
+.child2-div img{
+    width:100%;
+    height:300px;
+}
+
+.content1-div h5{
+    background-color:#213a7c;
+    color:white;
+    min-height:30px;
+    font-size:large;
+    line-height:30px;
+    padding-left:2%;
+    margin-bottom: 50px;
+}
+
+.content2-div h5{
+    border: 1px solid black;
+    border-radius:2%;
+    padding: 40px 10px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+    background-color:#fff;
+}
+
+.boxes-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis:100%;
+    height:100px;
+    margin: 30px 0px;
+}
+
+.box1-div img, .box2-div img, .box3-div img{
+    width:60px;
+    height:50px;
+    margin:10px;
+}
+
+.box1-div a, .box2-div a, .box3-div a{
+    text-decoration:none;
+    color:#fff;
+}
+
+.box1-div a:hover, .box2-div a:hover, .box3-div a:hover{
+    text-decoration:underline;
+}
+
+.box1-div,  .box3-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis: 33%;
+    align-items:center;
+    justify-content:center;
+}
+
+.box2-div{
+    display:flex;
+    flex-direction:column;
+    flex-basis: 33%;
+    align-items:center;
+
+}
+
+.box1-div{
+    background-color:green;
+}
+
+.box2-div{
+    background-color:orange;
+}
+
+.box3-div{
+    background-color:lightskyblue;
+}
+
+.content2-div h4{
+    margin-bottom:30px;
+}
+.content2-div ul a{
+    text-decoration:none;
+    color: #007bff;
+    margin-top:30px;
+}
+
+.content2-div ul a img{
+    width:30px;
+    height:10px;
+}
+
+.content2-div ul a:hover{
+    text-decoration:underline;
+    color:#2a5dc8;
+}
+
+
+/*Important Notes & News Updates*/
+
+#impnote-news-div{
+    /* display:flex;
+    flex-direction:row; */
+    width:100%;
+    height:300px;
+    margin-top: 30px;
+    justify-content:space-around;
+   /* background-color:gray;*/
+}
+
+.impnotes-div{
+    display:flex;
+    flex-direction:column;
+    flex-basis:23%;
+    background-color:#fff;
+
+  /*  background-color:lightgreen */
+}
+
+.impnotes-div h3{
+    text-transform:uppercase;
+    color:#f95c39;
+    border-top: 5px solid #f95c39;
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    padding:10px;
+    font-size:18px;
+    background-color:#f5f5f5;
+}
+
+.impnotes-div ul{
+    border: 1px solid gray;
+    list-style-type:none;
+}
+
+.impnotes-div a{
+    display:block;
+    padding: 10px 5px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.impnotes-div a:hover, .content-news-div a:hover{
+    text-decoration:underline;
+}
+
+.red{
+    color:#f95c39;
+}
+
+.green{
+    color:#088649;
+}
+/*News Update Section CSS*/
+.newsupdate-div{
+    display:flex;
+    flex-direction:column;
+    flex-basis:70%;
+    /*background-color:orange;*/
+}
+
+.newsupdate-div ul li{
+    list-style-type: none;
+    float:left; 
+}
+
+.news-nav-div{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    min-height:60px;
+    background-color:#213a7c;
+}
+
+.news-nav-div a{
+    display:inline-block;
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+    padding:30px 10px;
+}
+
+.news-nav-div a:hover{
+    background-color:#fff;
+    color:#2a5dc8;
+}
+
+.news-content-div{
+    display:flex;
+    flex-direction:row;
+    padding:20px 10px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color:#fff;
+}
+
+.news-img-div{
+    padding-top: 20px;
+}
+
+.content-news-div a{
+    display:block;
+    padding:10px;
+    text-decoration: none;
+    color:black;
+    font-size:14px;
+}
+
+/*Scrollable Section*/
+#scrollable-div{
+    width:100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: lightgray;*/
+    justify-content: space-evenly;
+    margin:30px 0px;
+}
+
+.scroll-item-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis:30%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    align-items: center;
+    justify-content:center;
+    background-color:#fff;
+}
+
+.scroll-item-div a{
+    text-decoration:none;
+    color:#2a5dc8;
+    font-weight:bold;
+}
+
+.scroll-item-div a:hover{
+    background-color:#2a5dc8;
+    color:white;
+    text-decoration:underline;
+}
+
+/*Latest News Heading*/
+#latestn-div{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+   /* background-color: lightgray;*/
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+#latestn-div a{
+    display:inline-block;
+    text-decoration: underline;
+    color:#213a7c;
+    padding: 10px 0px;
+}
+
+#latestn-div p{
+    font-size: 13px;  
+    font-weight:bold;  
+    color:gray;
+}
+
+/*Latest News Section CSS*/
+#parent-track-div{
+    width:100%;
+    min-height:100px;
+    display:flex;
+    flex-direction: row;
+   /* background-color: gray; */
+    
+}
+
+#firsthalf-div{
+    display:flex;
+    flex-direction:row;
+    flex-basis:50%;
+    justify-content:space-around;
+    
+}
+
+.child-track-div{
+    display: flex;
+    flex-direction: column;
+    flex-basis:30%;
+    background-color:#fff;
+    border-radius: 10%;
+    align-items: center;
+    padding:30px;
+}
+
+.child-track-div img{
+    width:130px;
+    height:100px;
+    padding: 10px 0px;
+}
+
+.child-track-div h3{
+    color:#2a5dc8;
+    font-size:15px;
+    padding:10px 0px;
+    line-height: 1.5;
+}
+
+.child-track-div h5{
+    color:#f95c39;
+    font-size:12px;
+    line-height: 1.7;
+}
+
+.child-track-div p{
+    color:gray;
+    padding-top:10px;
+    font-size:12px;
+    line-height: 1.7;
+}
+
+.child-track-div button{
+    margin-top:10px;
+    padding: 5px;
+    color:#007bff;
+    background-color:#fff;
+    border:1px solid #007bff;
+    font-weight:bold;
+    font-size:12px;
+}
+
+.child-track-div button:hover{
+    background-color:#2a5dc8;
+    color:#fff;
+}
+
+/*Gallery Section CSS*/
+#gallery-wrapper-div{
+    width:100%;
+    min-height:200px;
+    background-color:#09519d;
+    margin-top:20px;
+}
+
+.gallery-h3-div h3{
+    width:100%;
+    min-height:100px;
+    text-align:center;
+    text-decoration:underline;
+    text-transform:uppercase;
+    color:white;
+    font-size:25px;
+    line-height:100px;
+}
+
+.gallery-img-div img{
+    width:20%;
+    min-height:90px;
+    padding-bottom:30px;
+}
+
+/*iFrame Clips & Map Section*/
+#clip-map-div{
+    width:100%;
+    min-height:200px;
+    background-color:#bee1ee;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+.clip-map-box{
+    display:flex;
+    flex-direction:column;
+    flex-basis:30%;
+}
+
+.clip-map-box h4{
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*Footer Section CSS*/
+#footer-wrapper-div{
+    width:100%;
+    min-height:100px;
+    background-color:#000e2d;
+    display:flex;
+    flex-direction:column;
+}
+
+#subfooter1-div{
+    width:80%;
+    min-height: 40px;
+    display:flex;
+    flex-direction: row;
+ /*   background-color:gray; */
+    margin:auto;
+}
+
+#subfooter1-div h3{
+    color:#f8b003;
+    font-size:16px;
+    padding-right:16%;
+    line-height:40px;
+}
+
+#subfooter1-div a, #subfooter1-div span{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    padding: 0px 7px;
+    line-height:40px;
+}
+
+#subfooter1-div a:hover, #subfooter3-div a:hover{
+    text-decoration: underline;
+}
+
+/*Sub Footer 2*/
+#subfooter2-div{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    min-height:200px;
+  /*  background-color:pink;*/
+    margin:auto;
+    justify-content:space-between;
+    padding-bottom: 15px;
+    border-bottom:1px solid gray;
+}
+
+.footer-links-div{
+    display:flex;
+    flex-direction: column;
+    flex-basis:23%;
+   /* background-color:lightblue;*/
+}
+
+.footer-links-div h3{
+    color:#f8b003;
+    font-size:16px; 
+    padding:10px 0px;
+    border-bottom:1px solid gray;
+}
+
+.footer-links-div li{
+    list-style-type: none;
+    padding:6px 0px;
+}
+
+.footer-links-div a{
+    text-decoration:none;
+    color:#fff;
+    font-size:13px;
+    
+}
+
+.footer-links-div a:hover{
+    color: #f8b003;
+}
+
+/*Sub Footer 3 Section CSS*/
+#subfooter3-div{
+    width: 100%;
+    min-height:100px;
+}
+
+#subfoot1, #subfoot2{
+    width:100%;
+    min-height:50px;
+    color:white;
+    text-align:center;
+    font-size:13px;
+}
+
+#subfoot1{
+    padding: 20px 0px 5px;
+}
+
+#subfoot2{
+    padding-bottom:20px;
+}
+
+#subfooter3-div a{
+    text-decoration:none;
+    color: #f8b003;
+}

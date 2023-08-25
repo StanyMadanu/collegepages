@@ -1,0 +1,307 @@
+* {
+   
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:"sans-serif", Arial;
+}
+
+body{
+    width:100%;
+}
+
+/*Navigation*/
+
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+}
+
+#navigation-bg{
+    width:100%;
+    background-color:#22438c;
+    color:white;
+    font-size:15px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    justify-content:center;
+}
+
+#navigation-bg a{
+    color:white;
+    padding-left:6px;
+       
+}
+
+#navigation-drop-items{
+    background-color:#009fe3;
+}
+
+#navigation-drop-items a:hover{
+    background-color:#22438c;
+}
+
+
+/* middle content section */
+
+
+#mid-part1{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+#mid-part1 img{
+    width:60%;
+    height:15%; 
+}
+#middle-part2{
+    display:flex;
+    flex-direction:row; 
+
+}
+
+#middle-part2 h4{
+    font-size:30px;
+    text-transform:uppercase;
+}
+
+#mid-part3 p{
+    padding:10px;
+}
+
+/*Marquee Tag*/
+.scroll-text{
+    color:rgb(39, 105, 160);
+}
+
+.sub-heading{
+    display:inline-block;
+    background-color: brown;
+    color:white;
+    font-weight: 700;
+    font-size:large;
+    margin:10px;
+    padding: 30px;
+}
+
+
+/* left content */
+#left-content ul{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+#left-content a{
+    text-decoration:none;
+    display:block;
+    border-bottom:1px solid #fff;
+    padding:5px;
+    color:#044ded;
+    font-size:13px;
+}
+
+#left-content a:hover{
+    background-color:whitesmoke;
+    color:red;
+}
+
+#left-content .card-header{
+    background-color:#002a5c;
+    font-size:14px;
+    color:#fff;
+}
+
+#left-lsts{
+    background-color:lightblue;
+}
+
+/*University News update Tables*/
+#news-update-headings{
+    background-color:#002a5c;
+}
+
+#news-update-headings a{
+    color:white;
+    border-left:2px solid white;
+}
+
+#news-update-headings a:hover{
+    background-color:#009fe3;
+    color:#000;
+}
+
+#uninews-wrapper{
+    width:90%;
+    margin:auto;
+}
+
+#tab-a a{
+    text-decoration:none;
+    font-size:13px;
+}
+
+#tab-a a:hover{
+    color:red;
+}
+
+.nirf-pic{
+    width:100%;
+    height:40%;
+}
+
+/*Gallery*/
+
+.gallery-main-div{
+    margin: 5% 10%;
+}
+/*News Letter Box*/
+.gallery-head{
+    text-align: center;
+}
+
+.news-letter-main{
+    display: inline-block;
+    background-color: lightblue;
+    border: 1px dashed red;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.new-letter.main, .news-letter{
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.news-letter a img{
+    width:100px;
+    height:100px;
+    border-right: 1px dashed grey;
+}
+
+/*Photo Gallery Box*/
+.photo-gallery-main{
+    display: inline-block;
+    background-color: lightblue;
+    border: 1px dashed red;
+    margin-left: 10%;
+    width: 40%;
+
+}
+
+.photo-gallery{
+    display: inline-block;
+    padding: 25px;
+}
+
+
+.photo-gallery a img{
+    border-right: 1px dashed grey;
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+}
+
+/*Scrolling Images*/
+
+.scroll-image{
+    width:125px;
+    height:70px;
+    margin-top: 10px;
+}
+
+
+
+/*KU Other Administration CSS*/
+.ku-otheradmin-table{
+    border: 1px solid black;
+    background-color:rgb(204, 225, 231);
+    width:70%;
+    font-size: small;
+}
+
+.ku-otheradmin-table th{
+    background-color:#22438c;
+    color:white;
+}
+
+.ku-otheradmin-table td{
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+}
+
+.courses-content-table .ku-otheradmin-table td{
+    padding:0;
+}
+
+
+/*footer Content*/
+
+.footerCSS{
+    background-color: black;
+    color: grey;
+    font-size:small;
+    padding: 30px 0 50px 100px;
+}
+
+/*KU_Courses css content*/
+
+.courses-content-main, .courses-content-nav, .courses-content-table{
+    display: inline-block;
+}
+
+
+.courses-content-table a{
+    text-decoration: none;
+    font-weight:bold;
+    color:#044ded;
+}
+
+.courses-content-table table td{
+    padding:40px;
+}
+
+.courses-content-table a:hover{
+    color:red;
+}
+
+/*KU Courses CSS*/
+.left-align-table td{
+    background-color: #002a5c;
+    padding: 6px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    
+   }
+   
+.left-align-table td:hover{
+       background-color:31aae1;
+       
+   }
+   
+.left-align-table td a{
+       color: white;
+       text-decoration: none;
+   }
+
+.academics-container, .academics-head, .academics-content{
+    display: inline-block;
+
+}
+
+
+/* iconlist */
+#iconlist{
+    width:90%;
+    margin:auto;
+    padding:50px 0;
+    text-align:center;
+    font-weight:bold;
+    color:black;
+}
+
+#iconlist div{
+    padding-bottom:10px;
+}
